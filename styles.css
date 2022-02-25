@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=PT+Sans&family=Roboto:wght@100&family=Shizuru&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+
+
+
+body{
+    background-color:darkslategray;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 5em;
+
+    text-align: center;
+
+    color:darkkhaki;
+}
+
+
+p{
+    font-family: 'PT Sans', sans-serif;
+
+    text-align: left;
+
+    color:darkseagreen;
+}
+
+a{
+    color:lightpink;
+    text-decoration: none;
+}
+

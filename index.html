@@ -22,7 +22,7 @@ h1{
     }
 
 p{
-    font-size: 1em;
+    font-size: 1.25em;
 
     color:#fb6267ff;
     }
@@ -30,6 +30,19 @@ p{
 a{
     color:#526e2dff;
     }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: center max-content;
+  }
+
+.grid-item {
+    background-color:#f9bf1e;
+
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: #fb6267ff;
+  }
 
     </style>
 
@@ -54,13 +67,13 @@ a{
 
 <!-- what the abbreviation means -->
 
-    <br>
-    <br>'J' stands for Judy
-    <br>'A' stands for Ashley
-    <br>'B' stands for Brittney
-    <br>'B' stands for Brad
-    <br>'N' stands for Nadya.
-    <br>
+<div class="grid-container">
+    <div class="grid-item">'J' stands for Judy</div>
+    <div class="grid-item">'A' stands for Ashley</div>
+    <div class="grid-item">'B' stands for Brittney</div>
+    <div class="grid-item">'B' stands for Brad</div>
+    <div class="grid-item">'N' stands for Nadya.</div>
+  </div>
 
 <!-- moving on to the next page -->
 
@@ -69,6 +82,8 @@ a{
         <a href="pages/secondpage.html">"J"</a>
          on the rick and morty wikipedia page.
     </p>
+
+   
 
 </body>
 </html>
